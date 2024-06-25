@@ -1,5 +1,4 @@
 # Build
-/dist
 /lib
 /lib-types
 /server
@@ -39,3 +38,6 @@ lerna-debug.log*
 # Yarn
 .yarn/*
 !.yarn/releases
+
+/dist/*
+!dist/qwik-prefetch-service-worker.js
